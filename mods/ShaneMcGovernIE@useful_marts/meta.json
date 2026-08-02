@@ -1,0 +1,24 @@
+{
+  "id": "useful_marts",
+  "title": "Useful Marts",
+  "author": "ShaneMcGovernIE",
+  "summary": "In the Poké Mart, BUY rows show how many of an item you already own (\"×N in bag\") and SELL rows show the item's sell price, and both lists wrap at the ends.",
+  "version": "1.0.0",
+  "categories": [
+    "UI"
+  ],
+  "tags": [
+    "marts",
+    "shop",
+    "ui"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/useful-marts",
+  "github": "ShaneMcGovernIE/useful-marts",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.37 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}
