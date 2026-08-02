@@ -1,0 +1,61 @@
+name: Build index and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Nightly: re-read every tracked repo's Releases so index.json follows
+    # version bumps without anyone opening a pull request.
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/build-index.mjs --releases
+
+      - name: Validate
+        run: node scripts/validate.mjs
+
+      - name: Summarize
+        run: |
+          {
+            echo '### index.json'
+            echo
+            node -e "const i=require('./site/data/index.json');
+              console.log('- ' + i.count + ' mod(s), generated ' + i.generated_at);
+              for (const m of i.mods) console.log('- \`' + m.folder + '\` ' + (m.latest ? m.latest.version + ' (' + m.update_check + ')' : m.update_check));"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

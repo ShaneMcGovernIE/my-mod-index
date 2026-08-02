@@ -1,0 +1,14 @@
+{
+  "name": "my-mod-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal mod index for the Gen 1 recomp engine",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build-index.mjs",
+    "build:releases": "node scripts/build-index.mjs --releases",
+    "test": "node scripts/validate.mjs"
+  }
+}

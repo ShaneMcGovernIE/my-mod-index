@@ -1,0 +1,24 @@
+{
+  "id": "crystal_animated_sprites_with_shiny_visuals",
+  "title": "Crystal Animated Sprites with Shiny Visuals",
+  "author": "ShaneMcGovernIE",
+  "summary": "Crystal animated normal and shiny sprites combined with Gen 2-style shiny sparkles, sound, and delayed enemy cry.",
+  "version": "1.2.0",
+  "categories": [
+    "ART"
+  ],
+  "tags": [
+    "sprites",
+    "shiny",
+    "crystal"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/crystal_animated_sprites_with_shiny_visuals",
+  "github": "ShaneMcGovernIE/crystal_animated_sprites_with_shiny_visuals",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.1.33 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}

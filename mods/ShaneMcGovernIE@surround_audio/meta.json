@@ -1,0 +1,24 @@
+{
+  "id": "surround_audio",
+  "title": "Stereo & 5.1 Audio",
+  "author": "ShaneMcGovernIE",
+  "summary": "Crystal's SOUND option: MONO/STEREO music, with every sound effect through the center channel. Toggle with M, or Select+R on a controller; persists in options.lua.",
+  "version": "1.6.0",
+  "categories": [
+    "AUDIO"
+  ],
+  "tags": [
+    "audio",
+    "stereo",
+    "surround"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/surround-audio",
+  "github": "ShaneMcGovernIE/surround-audio",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}

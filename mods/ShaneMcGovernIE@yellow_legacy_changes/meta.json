@@ -1,0 +1,24 @@
+{
+  "id": "yellow_legacy_changes",
+  "title": "Yellow Legacy Changes",
+  "author": "ShaneMcGovernIE",
+  "summary": "Yellow Legacy by TSP changes: buffed/nerfed moves, rebalanced stats, trade evolutions become level evolutions, rebalanced trainer and gym-leader teams, Ghost special + super-effective vs Psychic,...",
+  "version": "1.7.0",
+  "categories": [
+    "BALANCE"
+  ],
+  "tags": [
+    "yellow",
+    "balance",
+    "moves"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/yellow_legacy_changes",
+  "github": "ShaneMcGovernIE/yellow_legacy_changes",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}

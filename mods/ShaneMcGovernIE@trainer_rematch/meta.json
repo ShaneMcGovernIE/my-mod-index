@@ -1,0 +1,24 @@
+{
+  "id": "trainer_rematch",
+  "title": "Trainer Rematch",
+  "author": "ShaneMcGovernIE",
+  "summary": "Talk to beaten trainers for a rematch. Rematches pay no money, every class opens with a line in its own voice, and a much stronger rematch team draws a second warning prompt.",
+  "version": "0.3.0",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "tags": [
+    "trainers",
+    "rematch",
+    "qol"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/trainer_rematch",
+  "github": "ShaneMcGovernIE/trainer_rematch",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}
