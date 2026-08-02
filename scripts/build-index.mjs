@@ -31,6 +31,7 @@ const folders = listModFolders(modsDir);
 // CI uses. Copying beats a second implementation drifting out of step.
 mkdirSync(outDir, { recursive: true });
 copyFileSync(join(repoRoot, 'schema', 'mod.schema.json'), join(outDir, 'mod.schema.json'));
+mkdirSync(join(repoRoot, 'site', 'assets'), { recursive: true });
 copyFileSync(join(repoRoot, 'scripts', 'lib', 'jsonschema.mjs'), join(repoRoot, 'site', 'assets', 'jsonschema.js'));
 
 rmSync(join(outDir, 'mods'), { recursive: true, force: true });
