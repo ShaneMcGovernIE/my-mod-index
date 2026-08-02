@@ -2,7 +2,7 @@
   "id": "qol_toggles",
   "title": "QoL Toggles",
   "author": "ShaneMcGovernIE",
-  "summary": "OPTIONS -> USEFUL TOGGLES: ten switches for poison survival, full-heal catches, infinite repel, learnable field moves, badgeless moves, always-catch, perfect DVs, double EXP, instant flee, heal on map change.",
+  "summary": "OPTIONS -> USEFUL TOGGLES: poison survival, full-heal catches, infinite repel, learnable field moves, badgeless moves, always-catch, perfect DVs, double EXP, instant flee, heal on map change.",
   "version": "1.3.0",
   "categories": [
     "QOL"
