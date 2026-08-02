@@ -3,7 +3,7 @@
   "title": "QoL Toggles",
   "author": "ShaneMcGovernIE",
   "summary": "OPTIONS -> USEFUL TOGGLES submenu: poison survives at 1 HP, captures are fully healed with PP restored, an infinite repel, and every learnable field move usable without knowing it.",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "categories": [
     "QOL"
   ],

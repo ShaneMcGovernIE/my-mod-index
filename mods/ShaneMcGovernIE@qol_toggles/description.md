@@ -23,7 +23,7 @@ files).
 
 ## Notes
 
-- Toggles default to OFF; each flip is saved immediately to
+- Toggles ship ON except INFINITE REPEL; each flip is saved immediately to
   options.lua, so toggles set from the title screen survive starting or
   continuing a game.
 - FIELD MOVES ALL never touches battle: it only adds the out-of-battle
