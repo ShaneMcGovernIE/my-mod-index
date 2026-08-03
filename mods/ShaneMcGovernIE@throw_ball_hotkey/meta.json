@@ -1,0 +1,24 @@
+{
+  "id": "throw_ball_hotkey",
+  "title": "Throw Ball Hotkey",
+  "author": "ShaneMcGovernIE",
+  "summary": "In battle, press T on the main menu to instantly throw your preferred ball. OPTIONS > THROW BALL picks POKé, GREAT, ULTRA or MASTER; unowned picks fall back to your first ball.",
+  "version": "1.1.0",
+  "categories": [
+    "QOL"
+  ],
+  "tags": [
+    "battle",
+    "hotkey",
+    "catch"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/throw_ball_hotkey",
+  "github": "ShaneMcGovernIE/throw_ball_hotkey",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}
