@@ -23,3 +23,5 @@ party menu is untouched (SWITCH / STATS / CANCEL).
    [releases page](https://github.com/ShaneMcGovernIE/relearn_moves/releases).
 2. In the game: **MODS > Import mod .zip** and pick the file.
 3. Restart the game. RELEARN appears in every field party-menu submenu.
+Move names too long for the list box scroll as a ticker (hold, scroll,
+hold, scroll back), clipped to the row.
