@@ -1,0 +1,25 @@
+{
+  "id": "mods_hotkeys",
+  "title": "Mods Hotkeys",
+  "author": "ShaneMcGovernIE",
+  "summary": "Detects the hotkeys other installed mods listen for and lets you rebind them from OPTIONS -> MODS HOTKEYS, multi-button combos included.",
+  "version": "0.1.5",
+  "categories": [
+    "TOOL"
+  ],
+  "tags": [
+    "hotkeys",
+    "input",
+    "rebinding",
+    "options"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/mods_hotkeys",
+  "github": "ShaneMcGovernIE/mods_hotkeys",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}
