@@ -1,0 +1,25 @@
+{
+  "id": "critical_capture",
+  "title": "Critical Capture",
+  "author": "ShaneMcGovernIE",
+  "summary": "Gen 5 critical capture: a thrown ball can whistle, pause and shudder in mid-air, then shake once with far better odds. Scales with Pokedex completion, rescaled to Gen 1's 151.",
+  "version": "0.1.0",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "tags": [
+    "capture",
+    "balls",
+    "mechanics",
+    "options"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/critical_capture",
+  "github": "ShaneMcGovernIE/critical_capture",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}
