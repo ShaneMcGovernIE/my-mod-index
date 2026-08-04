@@ -2,7 +2,7 @@
   "id": "qol_toggles",
   "title": "QoL Toggles",
   "author": "ShaneMcGovernIE",
-  "summary": "OPTIONS -> USEFUL TOGGLES: poison survival, full-heal catches, infinite repel, field moves, unlimited TMs, forgettable HMs, always catch, instant flee, map-change heal, quick S.S. Anne, last-item M",
+  "summary": "OPTIONS -> QOL TOGGLES: poison survival, full-heal catches, infinite repel, field moves, unlimited TMs, forgettable HMs, always catch, instant flee, map-change heal, quick S.S. Anne, last-item M",
   "version": "1.10.0",
   "categories": [
     "QOL"

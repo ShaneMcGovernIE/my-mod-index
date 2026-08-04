@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-04T11:36:46.160Z",
+  "generated_at": "2026-08-04T14:24:47.531Z",
   "count": 14,
   "categories": [
     "GAMEPLAY",
@@ -56,7 +56,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 555,
+      "downloads": 613,
       "first_release": "2026-08-01",
       "last_release": "2026-08-03"
     },
@@ -99,7 +99,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 436,
+      "downloads": 468,
       "first_release": "2026-08-01",
       "last_release": "2026-08-03"
     },
@@ -143,7 +143,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 33,
+      "downloads": 37,
       "first_release": "2026-08-03",
       "last_release": "2026-08-03"
     },
@@ -186,7 +186,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 744,
+      "downloads": 817,
       "first_release": "2026-08-02",
       "last_release": "2026-08-03"
     },
@@ -230,7 +230,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 79,
+      "downloads": 91,
       "first_release": "2026-08-03",
       "last_release": "2026-08-03"
     },
@@ -274,7 +274,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 160,
+      "downloads": 177,
       "first_release": "2026-08-03",
       "last_release": "2026-08-03"
     },
@@ -283,7 +283,7 @@
       "id": "qol_toggles",
       "title": "QoL Toggles",
       "author": "ShaneMcGovernIE",
-      "summary": "OPTIONS -> USEFUL TOGGLES: poison survival, full-heal catches, infinite repel, field moves, unlimited TMs, forgettable HMs, always catch, instant flee, map-change heal, quick S.S. Anne, last-item M",
+      "summary": "OPTIONS -> QOL TOGGLES: poison survival, full-heal catches, infinite repel, field moves, unlimited TMs, forgettable HMs, always catch, instant flee, map-change heal, quick S.S. Anne, last-item M",
       "version": "1.10.0",
       "categories": [
         "QOL"
@@ -305,19 +305,19 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@qol_toggles/description.md",
       "latest": {
-        "version": "1.11.0",
-        "tag": "v1.11.0",
-        "name": "1.11.0",
+        "version": "1.12.0",
+        "tag": "v1.12.0",
+        "name": "1.12.0",
         "prerelease": false,
-        "published_at": "2026-08-04T10:03:59Z",
+        "published_at": "2026-08-04T14:24:01Z",
         "zip": {
-          "name": "qol_toggles-1.11.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/qol_toggles/releases/download/v1.11.0/qol_toggles-1.11.0.zip",
-          "size": 37264
+          "name": "qol_toggles-1.12.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/qol_toggles/releases/download/v1.12.0/qol_toggles-1.12.0.zip",
+          "size": 37309
         }
       },
       "update_check": "ok",
-      "downloads": 489,
+      "downloads": 550,
       "first_release": "2026-08-02",
       "last_release": "2026-08-04"
     },
@@ -360,7 +360,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 575,
+      "downloads": 623,
       "first_release": "2026-08-01",
       "last_release": "2026-08-03"
     },
@@ -403,7 +403,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 36,
+      "downloads": 45,
       "first_release": "2026-08-03",
       "last_release": "2026-08-03"
     },
@@ -446,7 +446,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 500,
+      "downloads": 541,
       "first_release": "2026-08-01",
       "last_release": "2026-08-02"
     },
@@ -489,7 +489,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 455,
+      "downloads": 482,
       "first_release": "2026-08-01",
       "last_release": "2026-08-02"
     },
@@ -532,7 +532,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 136,
+      "downloads": 145,
       "first_release": "2026-08-02",
       "last_release": "2026-08-02"
     },
@@ -575,7 +575,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 1176,
+      "downloads": 1239,
       "first_release": "2026-08-01",
       "last_release": "2026-08-03"
     },
@@ -618,7 +618,7 @@
         }
       },
       "update_check": "ok",
-      "downloads": 826,
+      "downloads": 859,
       "first_release": "2026-08-01",
       "last_release": "2026-08-03"
     }

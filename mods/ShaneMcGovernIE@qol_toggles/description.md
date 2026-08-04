@@ -1,6 +1,6 @@
 # QoL Toggles
 
-Seventeen quality-of-life switches in OPTIONS → **USEFUL TOGGLES**, each
+Seventeen quality-of-life switches in OPTIONS → **QOL TOGGLES**, each
 persisted with your preferences (they stay on across restarts and save
 files).
 
