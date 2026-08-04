@@ -2,8 +2,8 @@
   "id": "useful_dex",
   "title": "Useful Dex",
   "author": "ShaneMcGovernIE",
-  "summary": "In the Pok\u00e9dex, press A to cycle the species data page into base stats, BST and evolutions, then the full movelist (learned + TM/HM).",
-  "version": "1.1.0",
+  "summary": "In the Pokédex, press A to cycle the species data page into base stats, BST and evolutions, then the full movelist (learned + TM/HM).",
+  "version": "1.2.1",
   "categories": [
     "UI"
   ],

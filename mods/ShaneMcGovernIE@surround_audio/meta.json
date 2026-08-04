@@ -3,7 +3,7 @@
   "title": "Stereo & 5.1 Audio",
   "author": "ShaneMcGovernIE",
   "summary": "Crystal's SOUND option: MONO/STEREO music, with every sound effect through the center channel. Toggle with M, or Select+R on a controller; persists in options.lua.",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "categories": [
     "AUDIO"
   ],

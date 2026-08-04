@@ -3,7 +3,7 @@
   "title": "Mods Hotkeys",
   "author": "ShaneMcGovernIE",
   "summary": "Detects the hotkeys other installed mods listen for and lets you rebind them from OPTIONS -> MODS HOTKEYS, multi-button combos included.",
-  "version": "0.1.5",
+  "version": "0.1.9",
   "categories": [
     "TOOL"
   ],

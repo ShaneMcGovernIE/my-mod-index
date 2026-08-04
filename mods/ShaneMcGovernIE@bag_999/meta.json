@@ -3,7 +3,7 @@
   "title": "999 Bag Slots",
   "author": "ShaneMcGovernIE",
   "summary": "Raises the bag's capacity to 999 slots and adds TAB / R3 (right stick) to sort the bag by name or count.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "categories": [
     "QOL"
   ],
