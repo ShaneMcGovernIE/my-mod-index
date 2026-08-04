@@ -75,8 +75,16 @@ if (withReleases) {
   for (const mod of mods) {
     if (mod.update_check !== 'pending') continue;
     try {
-      mod.latest = await latestRelease(mod);
+      const stats = await releaseStats(mod);
+      mod.latest = stats ? stats.latest : null;
       mod.update_check = mod.latest ? 'ok' : 'no installable release';
+      if (stats) {
+        // Total downloads across every release, plus first/last release
+        // dates; the launcher's Find Mods rows show them when present.
+        mod.downloads = stats.downloads;
+        if (stats.first) mod.first_release = stats.first;
+        if (stats.last) mod.last_release = stats.last;
+      }
     } catch (err) {
       mod.update_check = `error: ${err.message}`;
       console.error(`${mod.folder}: ${err.message}`);
@@ -160,14 +168,32 @@ function parseRelease(doc, modId) {
   };
 }
 
-async function latestRelease(mod) {
-  const releases = await ghJson(`https://api.github.com/repos/${mod.github}/releases?per_page=30`);
+// Mirrors src/mods/ModUpdate.lua: one fetch for the whole repo, then the
+// newest installable release plus download/date stats across every release.
+async function releaseStats(mod) {
+  const releases = await ghJson(`https://api.github.com/repos/${mod.github}/releases?per_page=100`);
   if (!Array.isArray(releases) || releases.length === 0) return null;
 
+  let downloads = 0;
+  let first = null;
+  let last = null;
+  for (const rel of releases) {
+    if (Array.isArray(rel.assets)) {
+      for (const asset of rel.assets) {
+        downloads += Number(asset.download_count ?? 0);
+      }
+    }
+    const day = typeof rel.published_at === 'string' ? rel.published_at.slice(0, 10) : null;
+    if (day) {
+      if (!first || day < first) first = day;
+      if (!last || day > last) last = day;
+    }
+  }
+
+  const parsed = releases.map((r) => parseRelease(r, mod.id)).filter(Boolean);
   if (mod.fixed_release_tag) {
     const pinned = releases.find((r) => r.tag_name === mod.fixed_release_tag);
-    return pinned ? parseRelease(pinned, mod.id) : null;
+    return { latest: pinned ? parseRelease(pinned, mod.id) : null, downloads, first, last };
   }
-  const parsed = releases.map((r) => parseRelease(r, mod.id)).filter(Boolean);
-  return parsed.find((r) => !r.prerelease) ?? parsed[0] ?? null;
+  return { latest: parsed.find((r) => !r.prerelease) ?? parsed[0] ?? null, downloads, first, last };
 }

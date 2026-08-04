@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-02T00:33:49.301Z",
-  "count": 11,
+  "generated_at": "2026-08-04T11:36:46.160Z",
+  "count": 14,
   "categories": [
     "GAMEPLAY",
     "CONTENT",
@@ -23,7 +23,7 @@
       "title": "999 Bag Slots",
       "author": "ShaneMcGovernIE",
       "summary": "Raises the bag's capacity to 999 slots and adds TAB / R3 (right stick) to sort the bag by name or count.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "categories": [
         "QOL"
       ],
@@ -44,18 +44,21 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@bag_999/description.md",
       "latest": {
-        "version": "1.1.0",
-        "tag": "v1.1.0",
-        "name": "1.1.0",
+        "version": "1.2.0",
+        "tag": "v1.2.0",
+        "name": "v1.2.0",
         "prerelease": false,
-        "published_at": "2026-08-02T00:27:03Z",
+        "published_at": "2026-08-03T22:35:02Z",
         "zip": {
-          "name": "bag_999-1.1.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/bag-999/releases/download/v1.1.0/bag_999-1.1.0.zip",
-          "size": 5835
+          "name": "bag_999-1.2.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/bag-999/releases/download/v1.2.0/bag_999-1.2.0.zip",
+          "size": 4782
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 555,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-03"
     },
     {
       "folder": "ShaneMcGovernIE@battle_move_info",
@@ -63,7 +66,7 @@
       "title": "Battle Move Info",
       "author": "ShaneMcGovernIE",
       "summary": "In battle, press L while a move is highlighted to see its type, power, accuracy and effect.",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "categories": [
         "UI"
       ],
@@ -84,156 +87,239 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@battle_move_info/description.md",
       "latest": {
+        "version": "1.2.0",
+        "tag": "v1.2.0",
+        "name": "1.2.0",
+        "prerelease": false,
+        "published_at": "2026-08-03T00:28:15Z",
+        "zip": {
+          "name": "battle_move_info-1.2.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/battle_move_info/releases/download/v1.2.0/battle_move_info-1.2.0.zip",
+          "size": 8265
+        }
+      },
+      "update_check": "ok",
+      "downloads": 436,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-03"
+    },
+    {
+      "folder": "ShaneMcGovernIE@critical_capture",
+      "id": "critical_capture",
+      "title": "Critical Capture",
+      "author": "ShaneMcGovernIE",
+      "summary": "Gen 5 critical capture: a thrown ball can whistle, pause and shudder in mid-air, then shake once with far better odds. Scales with Pokedex completion, rescaled to Gen 1's 151.",
+      "version": "0.1.0",
+      "categories": [
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "capture",
+        "balls",
+        "mechanics",
+        "options"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/critical_capture",
+      "github": "ShaneMcGovernIE/critical_capture",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@critical_capture/description.md",
+      "latest": {
+        "version": "0.1.0",
+        "tag": "v0.1.0",
+        "name": "0.1.0",
+        "prerelease": false,
+        "published_at": "2026-08-03T22:33:42Z",
+        "zip": {
+          "name": "critical_capture-0.1.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/critical_capture/releases/download/v0.1.0/critical_capture-0.1.0.zip",
+          "size": 13030
+        }
+      },
+      "update_check": "ok",
+      "downloads": 33,
+      "first_release": "2026-08-03",
+      "last_release": "2026-08-03"
+    },
+    {
+      "folder": "ShaneMcGovernIE@exp_share",
+      "id": "exp_share",
+      "title": "Exp Share (Gen 1 / Gen 5+ styles)",
+      "author": "ShaneMcGovernIE",
+      "summary": "Party-wide EXP from the OPTIONS menu: Gen 1 Exp. All style or Gen 5+ style, with one shared-exp line instead of a message per Pokemon.",
+      "version": "0.1.3",
+      "categories": [
+        "GAMEPLAY"
+      ],
+      "tags": [
+        "exp",
+        "share",
+        "qol"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/exp_share",
+      "github": "ShaneMcGovernIE/exp_share",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-dev <1.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@exp_share/description.md",
+      "latest": {
+        "version": "0.1.3",
+        "tag": "v0.1.3",
+        "name": "0.1.3",
+        "prerelease": false,
+        "published_at": "2026-08-03T01:47:54Z",
+        "zip": {
+          "name": "exp_share-0.1.3.zip",
+          "url": "https://github.com/ShaneMcGovernIE/exp_share/releases/download/v0.1.3/exp_share-0.1.3.zip",
+          "size": 10457
+        }
+      },
+      "update_check": "ok",
+      "downloads": 744,
+      "first_release": "2026-08-02",
+      "last_release": "2026-08-03"
+    },
+    {
+      "folder": "ShaneMcGovernIE@mods_hotkeys",
+      "id": "mods_hotkeys",
+      "title": "Mods Hotkeys",
+      "author": "ShaneMcGovernIE",
+      "summary": "Detects the hotkeys other installed mods listen for and lets you rebind them from OPTIONS -> MODS HOTKEYS, multi-button combos included.",
+      "version": "0.1.9",
+      "categories": [
+        "TOOL"
+      ],
+      "tags": [
+        "hotkeys",
+        "input",
+        "rebinding",
+        "options"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/mods_hotkeys",
+      "github": "ShaneMcGovernIE/mods_hotkeys",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@mods_hotkeys/description.md",
+      "latest": {
+        "version": "0.1.9",
+        "tag": "v0.1.9",
+        "name": "0.1.9",
+        "prerelease": false,
+        "published_at": "2026-08-03T23:52:41Z",
+        "zip": {
+          "name": "mods_hotkeys-0.1.9.zip",
+          "url": "https://github.com/ShaneMcGovernIE/mods_hotkeys/releases/download/v0.1.9/mods_hotkeys-0.1.9.zip",
+          "size": 28554
+        }
+      },
+      "update_check": "ok",
+      "downloads": 79,
+      "first_release": "2026-08-03",
+      "last_release": "2026-08-03"
+    },
+    {
+      "folder": "ShaneMcGovernIE@relearn_moves",
+      "id": "relearn_moves",
+      "title": "Move Relearn",
+      "author": "ShaneMcGovernIE",
+      "summary": "Party menu gains RELEARN (between STATS and SWITCH, field only) to relearn any level-up move the mon has reached the level for.",
+      "version": "1.1.2",
+      "categories": [
+        "GAMEPLAY",
+        "QOL"
+      ],
+      "tags": [
+        "party",
+        "moves",
+        "relearn"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/relearn_moves",
+      "github": "ShaneMcGovernIE/relearn_moves",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@relearn_moves/description.md",
+      "latest": {
         "version": "1.1.2",
         "tag": "v1.1.2",
         "name": "1.1.2",
         "prerelease": false,
-        "published_at": "2026-08-01T14:38:30Z",
+        "published_at": "2026-08-03T18:51:05Z",
         "zip": {
-          "name": "battle_move_info-1.1.2.zip",
-          "url": "https://github.com/ShaneMcGovernIE/battle_move_info/releases/download/v1.1.2/battle_move_info-1.1.2.zip",
-          "size": 8122
+          "name": "relearn_moves-1.1.2.zip",
+          "url": "https://github.com/ShaneMcGovernIE/relearn_moves/releases/download/v1.1.2/relearn_moves-1.1.2.zip",
+          "size": 10781
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 160,
+      "first_release": "2026-08-03",
+      "last_release": "2026-08-03"
     },
     {
-      "folder": "ShaneMcGovernIE@CONTROLLER_RUMBLE",
-      "id": "CONTROLLER_RUMBLE",
-      "title": "Controller Rumble",
+      "folder": "ShaneMcGovernIE@qol_toggles",
+      "id": "qol_toggles",
+      "title": "QoL Toggles",
       "author": "ShaneMcGovernIE",
-      "summary": "Controller rumble for Gen 1 shakes plus modern extras: battle hits/heals/EXP, catch wobbles, menus, fishing, field moves, items/dex, slots, trades/link, and more. Categories: Battle FX / Ambient /...",
-      "version": "1.0.2",
-      "categories": [
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "controller",
-        "rumble",
-        "haptics"
-      ],
-      "repo": "https://github.com/masterwebx/gen1recomp-controller-rumble",
-      "github": "masterwebx/gen1recomp-controller-rumble",
-      "automatic_version_check": true,
-      "api": 2,
-      "game_version": ">=0.1.37 <2.0.0",
-      "profile": "content",
-      "permissions": [
-        "engine_internals"
-      ],
-      "thumbnail": null,
-      "description_url": "data/mods/ShaneMcGovernIE@CONTROLLER_RUMBLE/description.md",
-      "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
-        "name": "1.0.2",
-        "prerelease": false,
-        "published_at": "2026-08-01T17:59:04Z",
-        "zip": {
-          "name": "CONTROLLER_RUMBLE-1.0.2.zip",
-          "url": "https://github.com/masterwebx/gen1recomp-controller-rumble/releases/download/v1.0.2/CONTROLLER_RUMBLE-1.0.2.zip",
-          "size": 17169
-        }
-      },
-      "update_check": "ok"
-    },
-    {
-      "folder": "ShaneMcGovernIE@crystal_animated_sprites_with_shiny_visuals",
-      "id": "crystal_animated_sprites_with_shiny_visuals",
-      "title": "Crystal Animated Sprites with Shiny Visuals",
-      "author": "ShaneMcGovernIE",
-      "summary": "Crystal animated normal and shiny sprites combined with Gen 2-style shiny sparkles, sound, and delayed enemy cry.",
-      "version": "1.2.0",
-      "categories": [
-        "ART"
-      ],
-      "tags": [
-        "sprites",
-        "shiny",
-        "crystal"
-      ],
-      "repo": "https://github.com/ShaneMcGovernIE/crystal_animated_sprites_with_shiny_visuals",
-      "github": "ShaneMcGovernIE/crystal_animated_sprites_with_shiny_visuals",
-      "automatic_version_check": true,
-      "api": 2,
-      "game_version": ">=0.1.33 <2.0.0",
-      "profile": "content",
-      "permissions": [
-        "engine_internals"
-      ],
-      "thumbnail": null,
-      "description_url": "data/mods/ShaneMcGovernIE@crystal_animated_sprites_with_shiny_visuals/description.md",
-      "latest": null,
-      "update_check": "no installable release"
-    },
-    {
-      "folder": "ShaneMcGovernIE@game_speed_toggle",
-      "id": "game_speed_toggle",
-      "title": "Game Speed Toggle",
-      "author": "ShaneMcGovernIE",
-      "summary": "Cycle game speed between 1X, 2X, 4X and 10X with the 9 key (keyboard) or SELECT + LEFT BUMPER (gamepad).",
-      "version": "1.0.1",
+      "summary": "OPTIONS -> USEFUL TOGGLES: poison survival, full-heal catches, infinite repel, field moves, unlimited TMs, forgettable HMs, always catch, instant flee, map-change heal, quick S.S. Anne, last-item M",
+      "version": "1.10.0",
       "categories": [
         "QOL"
       ],
       "tags": [
-        "speed",
-        "toggle",
-        "fast-forward"
+        "toggles",
+        "options",
+        "qol"
       ],
-      "repo": "https://github.com/ShaneMcGovernIE/game_speed_toggle",
-      "github": "ShaneMcGovernIE/game_speed_toggle",
+      "repo": "https://github.com/ShaneMcGovernIE/qol_toggles",
+      "github": "ShaneMcGovernIE/qol_toggles",
       "automatic_version_check": true,
       "api": 2,
-      "game_version": ">=0.0.0-0 <2.0.0",
+      "game_version": ">=0.0.0-dev <1.0.0",
       "profile": "content",
       "permissions": [
         "engine_internals"
       ],
       "thumbnail": null,
-      "description_url": "data/mods/ShaneMcGovernIE@game_speed_toggle/description.md",
+      "description_url": "data/mods/ShaneMcGovernIE@qol_toggles/description.md",
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "name": "v1.0.0",
+        "version": "1.11.0",
+        "tag": "v1.11.0",
+        "name": "1.11.0",
         "prerelease": false,
-        "published_at": "2026-08-01T23:45:05Z",
+        "published_at": "2026-08-04T10:03:59Z",
         "zip": {
-          "name": "game_speed_toggle-1.0.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/game_speed_toggle/releases/download/v1.0.0/game_speed_toggle-1.0.0.zip",
-          "size": 4077
+          "name": "qol_toggles-1.11.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/qol_toggles/releases/download/v1.11.0/qol_toggles-1.11.0.zip",
+          "size": 37264
         }
       },
-      "update_check": "ok"
-    },
-    {
-      "folder": "ShaneMcGovernIE@violette",
-      "id": "violette",
-      "title": "Pokémon Version Violette",
-      "author": "ShaneMcGovernIE",
-      "summary": "Ports the data layer of the French romhack Pokémon Version Violette GBC onto gen1recomp in English: 166-dex species rework, Gen-2 type chart with DARK/STEEL, 176 moves, reworked encounters and tra...",
-      "version": "0.2.0",
-      "categories": [
-        "GAMEPLAY"
-      ],
-      "tags": [
-        "romhack",
-        "yellow",
-        "french"
-      ],
-      "repo": "https://github.com/ShaneMcGovernIE/violette",
-      "github": "ShaneMcGovernIE/violette",
-      "automatic_version_check": true,
-      "api": 2,
-      "game_version": ">=0.0.0-0 <2.0.0",
-      "profile": "content",
-      "permissions": [
-        "engine_internals"
-      ],
-      "thumbnail": null,
-      "description_url": "data/mods/ShaneMcGovernIE@violette/description.md",
-      "latest": null,
-      "update_check": "no installable release"
+      "update_check": "ok",
+      "downloads": 489,
+      "first_release": "2026-08-02",
+      "last_release": "2026-08-04"
     },
     {
       "folder": "ShaneMcGovernIE@surround_audio",
@@ -241,7 +327,7 @@
       "title": "Stereo & 5.1 Audio",
       "author": "ShaneMcGovernIE",
       "summary": "Crystal's SOUND option: MONO/STEREO music, with every sound effect through the center channel. Toggle with M, or Select+R on a controller; persists in options.lua.",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "categories": [
         "AUDIO"
       ],
@@ -262,18 +348,64 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@surround_audio/description.md",
       "latest": {
-        "version": "1.6.0",
-        "tag": "v1.6.0",
-        "name": "1.6.0",
+        "version": "1.6.1",
+        "tag": "v1.6.1",
+        "name": "v1.6.1",
         "prerelease": false,
-        "published_at": "2026-08-01T20:30:50Z",
+        "published_at": "2026-08-03T22:35:15Z",
         "zip": {
-          "name": "surround_audio-1.6.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/surround-audio/releases/download/v1.6.0/surround_audio-1.6.0.zip",
-          "size": 14356
+          "name": "surround_audio-1.6.1.zip",
+          "url": "https://github.com/ShaneMcGovernIE/surround-audio/releases/download/v1.6.1/surround_audio-1.6.1.zip",
+          "size": 11093
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 575,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-03"
+    },
+    {
+      "folder": "ShaneMcGovernIE@throw_ball_hotkey",
+      "id": "throw_ball_hotkey",
+      "title": "Throw Ball Hotkey",
+      "author": "ShaneMcGovernIE",
+      "summary": "In battle, press T on the main menu to instantly throw your preferred ball. OPTIONS > THROW BALL picks POKé, GREAT, ULTRA or MASTER; unowned picks fall back to your first ball.",
+      "version": "1.1.0",
+      "categories": [
+        "QOL"
+      ],
+      "tags": [
+        "battle",
+        "hotkey",
+        "catch"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/throw_ball_hotkey",
+      "github": "ShaneMcGovernIE/throw_ball_hotkey",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.0.0-0 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@throw_ball_hotkey/description.md",
+      "latest": {
+        "version": "1.1.0",
+        "tag": "v1.1.0",
+        "name": "1.1.0",
+        "prerelease": false,
+        "published_at": "2026-08-03T23:19:04Z",
+        "zip": {
+          "name": "throw_ball_hotkey-1.1.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/throw_ball_hotkey/releases/download/v1.1.0/throw_ball_hotkey-1.1.0.zip",
+          "size": 10942
+        }
+      },
+      "update_check": "ok",
+      "downloads": 36,
+      "first_release": "2026-08-03",
+      "last_release": "2026-08-03"
     },
     {
       "folder": "ShaneMcGovernIE@trainer_rematch",
@@ -281,7 +413,7 @@
       "title": "Trainer Rematch",
       "author": "ShaneMcGovernIE",
       "summary": "Talk to beaten trainers for a rematch. Rematches pay no money, every class opens with a line in its own voice, and a much stronger rematch team draws a second warning prompt.",
-      "version": "0.3.0",
+      "version": "0.4.2",
       "categories": [
         "GAMEPLAY"
       ],
@@ -302,18 +434,21 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@trainer_rematch/description.md",
       "latest": {
-        "version": "0.3.1",
-        "tag": "v0.3.1",
-        "name": "0.3.1",
+        "version": "0.4.2",
+        "tag": "v0.4.2",
+        "name": "0.4.2",
         "prerelease": false,
-        "published_at": "2026-08-01T22:58:36Z",
+        "published_at": "2026-08-02T17:43:04Z",
         "zip": {
-          "name": "trainer_rematch-0.3.1.zip",
-          "url": "https://github.com/ShaneMcGovernIE/trainer_rematch/releases/download/v0.3.1/trainer_rematch-0.3.1.zip",
-          "size": 8911
+          "name": "trainer_rematch-0.4.2.zip",
+          "url": "https://github.com/ShaneMcGovernIE/trainer_rematch/releases/download/v0.4.2/trainer_rematch-0.4.2.zip",
+          "size": 9997
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 500,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-02"
     },
     {
       "folder": "ShaneMcGovernIE@useful_dex",
@@ -321,7 +456,7 @@
       "title": "Useful Dex",
       "author": "ShaneMcGovernIE",
       "summary": "In the Pokédex, press A to cycle the species data page into base stats, BST and evolutions, then the full movelist (learned + TM/HM).",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "categories": [
         "UI"
       ],
@@ -342,18 +477,64 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@useful_dex/description.md",
       "latest": {
-        "version": "1.1.0",
-        "tag": "v1.1.0",
-        "name": "1.1.0",
+        "version": "1.2.1",
+        "tag": "v1.2.1",
+        "name": "1.2.1",
         "prerelease": false,
-        "published_at": "2026-08-01T14:05:16Z",
+        "published_at": "2026-08-02T18:44:05Z",
         "zip": {
-          "name": "useful_dex-1.1.0.zip",
-          "url": "https://github.com/ShaneMcGovernIE/useful_dex/releases/download/v1.1.0/useful_dex-1.1.0.zip",
-          "size": 7249
+          "name": "useful_dex-1.2.1.zip",
+          "url": "https://github.com/ShaneMcGovernIE/useful_dex/releases/download/v1.2.1/useful_dex-1.2.1.zip",
+          "size": 9981
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 455,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-02"
+    },
+    {
+      "folder": "ShaneMcGovernIE@useful_marts",
+      "id": "useful_marts",
+      "title": "Useful Marts",
+      "author": "ShaneMcGovernIE",
+      "summary": "In the Poké Mart, BUY rows show how many of an item you already own (\"×N in bag\") and SELL rows show the item's sell price, and both lists wrap at the ends.",
+      "version": "1.0.0",
+      "categories": [
+        "UI"
+      ],
+      "tags": [
+        "marts",
+        "shop",
+        "ui"
+      ],
+      "repo": "https://github.com/ShaneMcGovernIE/useful-marts",
+      "github": "ShaneMcGovernIE/useful-marts",
+      "automatic_version_check": true,
+      "api": 2,
+      "game_version": ">=0.1.37 <2.0.0",
+      "profile": "content",
+      "permissions": [
+        "engine_internals"
+      ],
+      "thumbnail": null,
+      "description_url": "data/mods/ShaneMcGovernIE@useful_marts/description.md",
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "name": "1.0.0",
+        "prerelease": false,
+        "published_at": "2026-08-02T19:30:53Z",
+        "zip": {
+          "name": "useful_marts-1.0.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/useful-marts/releases/download/v1.0.0/useful_marts-1.0.0.zip",
+          "size": 6266
+        }
+      },
+      "update_check": "ok",
+      "downloads": 136,
+      "first_release": "2026-08-02",
+      "last_release": "2026-08-02"
     },
     {
       "folder": "ShaneMcGovernIE@widescreen_battle_intro",
@@ -361,7 +542,7 @@
       "title": "Widescreen Battle Intro",
       "author": "ShaneMcGovernIE",
       "summary": "Extends the battle intro's flash effect (wild encounters and stronger foes) across the whole window, so on non-4:3 displays it no longer plays inside a centered 4:3 square.",
-      "version": "1.2.1",
+      "version": "1.4.0",
       "categories": [
         "ART"
       ],
@@ -382,18 +563,21 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@widescreen_battle_intro/description.md",
       "latest": {
-        "version": "1.2.1",
-        "tag": "v1.2.1",
-        "name": "v1.2.1",
+        "version": "1.4.0",
+        "tag": "v1.4.0",
+        "name": "v1.4.0",
         "prerelease": false,
-        "published_at": "2026-08-01T21:39:36Z",
+        "published_at": "2026-08-03T21:08:46Z",
         "zip": {
-          "name": "widescreen_battle_intro-1.2.1.zip",
-          "url": "https://github.com/ShaneMcGovernIE/gen1recomp-widescreen-battle-intro/releases/download/v1.2.1/widescreen_battle_intro-1.2.1.zip",
-          "size": 6115
+          "name": "widescreen_battle_intro-1.4.0.zip",
+          "url": "https://github.com/ShaneMcGovernIE/gen1recomp-widescreen-battle-intro/releases/download/v1.4.0/widescreen_battle_intro-1.4.0.zip",
+          "size": 9732
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 1176,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-03"
     },
     {
       "folder": "ShaneMcGovernIE@yellow_legacy_changes",
@@ -401,7 +585,7 @@
       "title": "Yellow Legacy Changes",
       "author": "ShaneMcGovernIE",
       "summary": "Yellow Legacy by TSP changes: buffed/nerfed moves, rebalanced stats, trade evolutions become level evolutions, rebalanced trainer and gym-leader teams, Ghost special + super-effective vs Psychic,...",
-      "version": "1.7.0",
+      "version": "1.10.1",
       "categories": [
         "BALANCE"
       ],
@@ -422,18 +606,21 @@
       "thumbnail": null,
       "description_url": "data/mods/ShaneMcGovernIE@yellow_legacy_changes/description.md",
       "latest": {
-        "version": "1.7.1",
-        "tag": "v1.7.1",
-        "name": "1.7.1",
+        "version": "1.10.1",
+        "tag": "v1.10.1",
+        "name": "1.10.1",
         "prerelease": false,
-        "published_at": "2026-08-01T23:57:52Z",
+        "published_at": "2026-08-03T23:43:12Z",
         "zip": {
-          "name": "yellow_legacy_changes-1.7.1.zip",
-          "url": "https://github.com/ShaneMcGovernIE/yellow_legacy_changes/releases/download/v1.7.1/yellow_legacy_changes-1.7.1.zip",
-          "size": 40259
+          "name": "yellow_legacy_changes-1.10.1.zip",
+          "url": "https://github.com/ShaneMcGovernIE/yellow_legacy_changes/releases/download/v1.10.1/yellow_legacy_changes-1.10.1.zip",
+          "size": 72117
         }
       },
-      "update_check": "ok"
+      "update_check": "ok",
+      "downloads": 826,
+      "first_release": "2026-08-01",
+      "last_release": "2026-08-03"
     }
   ]
 }
