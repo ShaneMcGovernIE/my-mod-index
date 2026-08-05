@@ -1,0 +1,24 @@
+{
+  "id": "useful_move_info",
+  "title": "Useful Move Info",
+  "author": "ShaneMcGovernIE",
+  "summary": "In battle, press Start (or Q) on a highlighted move to see type, power, accuracy, effect and type effectiveness; the same shortcut inspects moves when learning one.",
+  "version": "1.4.0",
+  "categories": [
+    "UI"
+  ],
+  "tags": [
+    "battle",
+    "moves",
+    "info"
+  ],
+  "repo": "https://github.com/ShaneMcGovernIE/useful-move-info",
+  "github": "ShaneMcGovernIE/useful-move-info",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": [
+    "engine_internals"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "useful_bag",
+  "title": "Useful Bag",
+  "author": "ShaneMcGovernIE",
+  "summary": "999-capacity bag auto-sorted into six pockets (Items, Medicine, Pok\u00e9 Balls, TMs / HMs, Battle Items, Key Items) cycled with Left/Right, plus TAB / R3 to sort by name or count.",
+  "version": "2.1.0",
+  "categories": ["QOL"],
+  "tags": ["bag", "inventory", "items", "pockets"],
+  "repo": "https://github.com/ShaneMcGovernIE/useful-bag",
+  "github": "ShaneMcGovernIE/useful-bag",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "permissions": ["engine_internals"]
+}
